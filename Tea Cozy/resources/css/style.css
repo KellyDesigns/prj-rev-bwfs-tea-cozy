@@ -1,0 +1,168 @@
+/* General styles */
+
+html {
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+}
+
+h2, h3, h4, h5 {
+  color: seashell;
+}
+
+/* Header styles */
+
+a {
+  color: seashell;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  font-family: "Helvetica", sans-serif;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+  margin: 10px;
+}
+
+nav span {
+  display: inline-block;
+  margin-right: 20px;
+  text-decoration: underline;
+}
+
+/* Mission section styles */
+
+.mission-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-heading {
+  position: absolute;
+  left: 0;
+  top:50%;
+  width:100%;
+  text-align:center;
+  color: seashell;
+  background-color: black;
+  z-index: 1;
+}
+
+/* Tea of the Month section styles */
+
+.tea-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width:1000px;
+  flex-wrap: wrap;
+}
+
+.teaofthemonth {
+  width: 100%;
+  top:300px;
+  text-align:center;
+  color: seashell;
+  background-color: black;
+  z-index: 1;
+}
+
+.fallberry {
+text-align:center;
+padding: 10px;
+}
+
+.spiced {
+  text-align:center;
+  padding: 10px;
+}
+
+.seasonal{
+  text-align:center;
+  padding: 10px;
+}
+
+.myrtle {
+  text-align:center;
+  padding: 10px;
+}
+
+.bedford {
+  text-align:center;
+  padding: 10px;
+}
+
+/* Locations section styles */
+
+.locationcontainer {
+  position: relative;
+}
+
+.locations {
+  position: absolute;
+  top: 1600px;
+  left: 50%;
+  height:500px;
+}
+
+.downtown {
+  position: absolute;
+  top: 1685px;
+  left: 10%;
+  width:300px;
+  text-align: center;
+  background-color: black;
+}
+
+.bayside {
+  position: absolute;
+  top: 1685px;
+  left: 40%;
+  width:300px;
+  text-align: center;
+  background-color: black;
+}
+
+.oakdale {
+  position: absolute;
+  top: 1685px;
+  left: 70%;
+  width:300px;
+  text-align: center;
+  background-color: black;
+}
+
+/* Footer section styles */
+
+.teacozy {
+  height: 200px;
+  background-color: black;
+  color: seashell;
+  text-align: center;
+}
+
+.copyright {
+  background-color: black;
+  color: seashell;
+  text-align: left;
+  padding-left: 20px;
+}
